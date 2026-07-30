@@ -1,49 +1,108 @@
-<!DOCTYPE html> 
-<html lang="pt-br"> 
-<head> 
-<meta charset="UTF-8"> 
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Blog</title> 
-<style> 
-header{ 
-background-color:#000080; 
-color: #d3d3d3; 
-text-align: center; 
-max-width: 800px; 
-margin: 0 auto; 
-padding: 16px; 
-} 
-main{ 
-background-color: #000080; 
-color: #d3d3d3; 
-max-width: 800px; 
-margin: 0 auto; 
-padding: 16px; 
-} 
-img{ 
-width: 80px; 
-height: 80px; 
-} 
-</style> 
-</head> 
-<body> 
-<header> 
-<h1></h1> 
-<p></p> </header> 
-<main> 
-<img src="" alt=""> <h2></h2> 
-<p></p> 
-<p>Verso Ceccon: Tecnologia & Esportes 💻⚽
-Bem-vindo(a)! Sou um dev apaixonado por explorar a fusão entre a ciência da computação e a alta performance esportiva. Aqui, transformo dados em estratégias e código em resultados.
+<!DOCTYPE html>
+<html lang="pt-br">
 
-  📊 Onde a Tecnologia encontra o Esporte:
-Data Analytics: Modelagem de dados para otimização tática e previsão de desempenhos.
-Wearables & IoT: Monitoramento físico de atletas e prevenção de lesões em tempo real.
-Visão Computacional: Algoritmos de rastreamento e suporte à arbitragem (como o VAR).
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verso Ceccon: Tecnologia & Esportes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0d0d0d;
+            color: #ffffff;
+            margin: 0;
+            padding: 20px;
+        }
 
-  🛠️ No meu Tech Stack:
-Análise de Dados: Python, Pandas, Machine Learning.
-APIs & Integrações: Consumo de dados de campeonatos e gestão esportiva.
-Arquitetura: Construção de soluções escaláveis para modelagem estatística. 
-🌐 Saiba mais sobre como a inovação está redefinindo o rendimento e a justiça nas competições em plataformas como o Espaço do Conhecimento UFMG ou a Globant Tech Terms.</p> 
-</body> 
-</html>
+        header {
+            background-color: #001f3f; /* Azul Marinho */
+            color: #ffffff;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 8px 8px 0 0;
+        }
+
+        main {
+            background-color: #121212; /* Preto */
+            color: #f0f0f0;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 0 0 8px 8px;
+        }
+
+        article {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 24px;
+            padding: 16px;
+            background-color: #1e1e1e;
+            border-radius: 8px;
+        }
+
+        img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .artigo-autor {
+            font-weight: bold;
+            color: #4da6ff;
+            margin: 4px 0;
+        }
+
+        button {
+            background-color: #001f3f;
+            color: white;
+            border: 1px solid #4da6ff;
+            padding: 6px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-right: 8px;
+            font-size: 14px;
+            transition: background-color 0.2s;
+        }
+
+        button:hover {
+            background-color: #003366;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Verso Ceccon: Tecnologia & Esportes 💻⚽</h1>
+        <p>Vou compartilhar sobre novidades no mundo tech, estatísticas, futebol e inovações esportivas!</p>
+    </header>
+
+    <main>
+        <article>
+            <img src="imagem-blog.png" alt="Ilustração sobre inteligência artificial e análise de dados nos esportes.">
+            <div>
+                <h2>O Impacto da Inteligência Artificial nos Esportes</h2>
+                <p class="artigo-autor">Por: Miguel Da Silva Polli Ceccon</p>
+                <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar sobre como a análise de dados e a tecnologia estão transformando o desempenho dos atletas no futebol e em outras modalidades.</p>
+                <button>❤️ <span>0</span></button>
+                <button>👍 <span>0</span></button>
+            </div>
+        </article>
+
+        <article>
+            <img src="imagem-blog.png" alt="Smartwatch e sensores monitorando batimentos cardíacos e desempenho.">
+            <div>
+                <h2>Dispositivos Wearables na Alta Performance</h2>
+                <p class="artigo-autor">Por: Miguel Da Silva Polli Ceccon</p>
+                <p>Smartwatches e coletes com GPS tornaram-se aliados indispensáveis para monitorar carga física e prevenir lesões nos esportes modernos.</p>
+                <button>❤️ <span>0</span></button>
+                <button>👍 <span>0</span></button>
+            </div>
+        </article>
+    </main>
+
+    <script>
+        const botoes = document.querySelectorAll("button
